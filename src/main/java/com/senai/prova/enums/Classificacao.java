@@ -1,13 +1,14 @@
 package com.senai.prova.enums;
 
-public enum Classificação {
+public enum Classificacao {
     SAIDA("Saída"),
-    ENTRADA("Entrada;");
+    ENTRADA("Entrada"),
+    OBSERVACAOO("Observação");
 
     private final String tipo;
 
 
-    Classificação(String tipo) {
+    Classificacao(String tipo) {
         this.tipo = tipo;
     }
 
